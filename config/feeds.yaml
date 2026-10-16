@@ -1,0 +1,44 @@
+categories:
+  - id: thailand_top
+    title: "🇹🇭 ข่าวเด่นในไทย"
+    min_stories: 3
+    max_stories: 5
+    feeds:
+      - name: "Google News Thailand (Top Stories)"
+        url: "https://news.google.com/rss?hl=th&gl=TH&ceid=TH:th"
+      - name: "Thai PBS News"
+        url: "https://www.thaipbs.or.th/rss/news"
+      - name: "ประชาชาติธุรกิจ (ข่าวทั่วไป)"
+        url: "https://www.prachachat.net/feed"
+      - name: "มติชนออนไลน์"
+        url: "https://www.matichon.co.th/feed"
+
+  - id: economy_business
+    title: "📈 เศรษฐกิจ การเงิน & ธุรกิจ"
+    min_stories: 3
+    max_stories: 5
+    feeds:
+      - name: "Google News Thailand (Business)"
+        url: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=th&gl=TH&ceid=TH:th"
+      - name: "ประชาชาติธุรกิจ (การเงิน-การลงทุน)"
+        url: "https://www.prachachat.net/finance/feed"
+      - name: "CNBC Top News & Analysis"
+        url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+      - name: "Yahoo Finance"
+        url: "https://finance.yahoo.com/news/rssindex"
+
+  - id: world_tech
+    title: "🌍 เทคโนโลยี & สถานการณ์รอบโลก"
+    min_stories: 3
+    max_stories: 5
+    feeds:
+      - name: "BBC World News"
+        url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+      - name: "Al Jazeera All News"
+        url: "https://www.aljazeera.com/xml/rss/all.xml"
+      - name: "TechCrunch"
+        url: "https://techcrunch.com/feed/"
+      - name: "The Verge"
+        url: "https://www.theverge.com/rss/index.xml"
+      - name: "Hacker News Frontpage"
+        url: "https://hnrss.org/frontpage"

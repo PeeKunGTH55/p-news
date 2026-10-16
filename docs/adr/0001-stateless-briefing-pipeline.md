@@ -1,0 +1,3 @@
+# Stateless Time-Window Curation and Single-Pass AI Summarization
+
+We run the Daily Briefing pipeline as a stateless scheduled job on GitHub Actions at 10:00 `Asia/Bangkok` daily, qualifying Raw Articles via a per-category Publication Window (`00:00–10:00` current day, falling back to `21:00` previous day when a Category has fewer than five Raw Articles) and curating all Categories in a single structured-output call to Gemini (`gemini-2.5-flash` by default). This eliminates external database or state-storage costs while guaranteeing cross-category deduplication and staying within free-tier API rate limits.
