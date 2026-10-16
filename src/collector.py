@@ -153,7 +153,7 @@ def collect_qualified_articles(
     categories: list[Category],
     window: PublicationWindow,
     timeout_seconds: float = 10.0,
-    max_per_category: int = 35,
+    max_per_category: int = 20,
 ) -> dict[str, list[RawArticle]]:
     """
     Collects, filters via PublicationWindow (with per-category fallback), and deduplicates

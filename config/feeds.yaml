@@ -6,8 +6,8 @@ categories:
     feeds:
       - name: "Google News Thailand (Top Stories)"
         url: "https://news.google.com/rss?hl=th&gl=TH&ceid=TH:th"
-      - name: "Thai PBS News"
-        url: "https://www.thaipbs.or.th/rss/news"
+      - name: "THE STANDARD"
+        url: "https://thestandard.co/feed/"
       - name: "ประชาชาติธุรกิจ (ข่าวทั่วไป)"
         url: "https://www.prachachat.net/feed"
       - name: "มติชนออนไลน์"
@@ -24,8 +24,8 @@ categories:
         url: "https://www.prachachat.net/finance/feed"
       - name: "CNBC Top News & Analysis"
         url: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
-      - name: "Yahoo Finance"
-        url: "https://finance.yahoo.com/news/rssindex"
+      - name: "MarketWatch Top Stories"
+        url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"
 
   - id: world_tech
     title: "🌍 เทคโนโลยี & สถานการณ์รอบโลก"
@@ -40,5 +40,5 @@ categories:
         url: "https://techcrunch.com/feed/"
       - name: "The Verge"
         url: "https://www.theverge.com/rss/index.xml"
-      - name: "Hacker News Frontpage"
-        url: "https://hnrss.org/frontpage"
+      - name: "Ars Technica"
+        url: "https://feeds.arstechnica.com/arstechnica/index"

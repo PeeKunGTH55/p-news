@@ -145,3 +145,16 @@ def test_load_feeds_config() -> None:
         "world_tech",
     ]
     assert all(len(c.feeds) >= 3 for c in categories)
+
+
+def test_model_candidate_chain() -> None:
+    from src.curator import build_model_candidate_chain
+
+    chain = build_model_candidate_chain("gemini-3.8-flash")
+    assert chain == [
+        "gemini-3.8-flash",
+        "gemini-3.6-flash",
+        "gemini-3.5-flash",
+        "gemini-3.5-flash-lite",
+    ]
+

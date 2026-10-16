@@ -41,9 +41,8 @@ class CuratedStory(BaseModel):
 
     headline: str = Field(description="Concise Thai headline (1 line)")
     bullets: list[str] = Field(
+        default_factory=list,
         description="2 to 3 key takeaway bullet points in Thai",
-        min_length=1,
-        max_length=4,
     )
     source_name: str = Field(description="Name of the primary news source")
     source_url: str = Field(description="Direct URL to the original article")
