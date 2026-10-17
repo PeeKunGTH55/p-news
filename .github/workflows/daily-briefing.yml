@@ -2,8 +2,8 @@ name: Daily News Briefing
 
 on:
   schedule:
-    # Runs every day at 03:00 UTC (10:00 AM Asia/Bangkok, UTC+7)
-    - cron: "0 3 * * *"
+    # Runs every day at 02:47 UTC (09:47 AM Asia/Bangkok, UTC+7) to avoid top-of-hour queue delays
+    - cron: "47 2 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
